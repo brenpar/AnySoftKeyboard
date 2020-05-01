@@ -29,6 +29,7 @@ public abstract class RestRequestPerformer<R, A> {
 
         try (CloseableHttpClient client = HttpClientCreator.create(username, password)) {
             HttpUriRequest httpRequest = createHttpRequest(request, requestAsJsonString);
+            // try (CloseableHttpResponse httpResponse =
             try (CloseableHttpResponse httpResponse =
                     client.execute(
                             httpRequest, HttpClientCreator.createContext(username, password))) {
