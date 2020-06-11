@@ -5,7 +5,6 @@ include ':api'
 
 include ':addons:base'
 include ':addons:languages'
-include ':addons:languages:english', ':addons:languages:english:pack'
 
 //list of packs should be alphabetized-ordered
 //include ':addons:languages:afrikaans_oss:pack', ':addons:languages:afrikaans_oss:apk'
@@ -20,7 +19,7 @@ include ':addons:languages:english:pack', ':addons:languages:english:apk'
 //include ':addons:languages:greek:pack', ':addons:languages:greek:apk'
 //include ':addons:languages:hebrew:pack', ':addons:languages:hebrew:apk'
 //include ':addons:languages:indonesian:pack', ':addons:languages:indonesian:apk'
-include ':addons:languages:italian:pack', ':addons:languages:italian:apk'
+//include ':addons:languages:italian:pack', ':addons:languages:italian:apk'
 //include ':addons:languages:lithuanian:pack', ':addons:languages:lithuanian:apk'
 //include ':addons:languages:nias:pack', ':addons:languages:nias:apk'
 //include ':addons:languages:ossturkish:pack', ':addons:languages:ossturkish:apk'
@@ -56,7 +55,7 @@ include ':addons:languages:pilaga:pack', ':addons:languages:pilaga:apk'
 include ':addons:themes'
 include ':addons:themes:classic_pc:pack', ':addons:themes:classic_pc:apk'
 //include ':addons:themes:ics:pack', ':addons:themes:ics:apk'
-include ':addons:themes:israel64:pack', ':addons:themes:israel64:apk'
+//include ':addons:themes:israel64:pack', ':addons:themes:israel64:apk'
 //include ':addons:themes:three_d:pack', ':addons:themes:three_d:apk'
 
 //list of quick-text should be alphabetized-ordered
